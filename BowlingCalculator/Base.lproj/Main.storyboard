@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BowlingCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="COX-Iv-m60" customClass="FramesView" customModule="BowlingCalculator" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qbs-DQ-6B3" customClass="ScoresView" customModule="BowlingCalculator" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="60" width="600" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="COX-Iv-m60" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="3Ve-bM-QN5"/>
+                            <constraint firstItem="COX-Iv-m60" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="7AW-R2-eGv"/>
+                            <constraint firstItem="COX-Iv-m60" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LUi-JK-qmo"/>
+                            <constraint firstAttribute="trailing" secondItem="Qbs-DQ-6B3" secondAttribute="trailing" id="O6Z-GI-qjB"/>
+                            <constraint firstItem="Qbs-DQ-6B3" firstAttribute="height" secondItem="COX-Iv-m60" secondAttribute="height" id="T7S-PS-lZi"/>
+                            <constraint firstItem="Qbs-DQ-6B3" firstAttribute="top" secondItem="COX-Iv-m60" secondAttribute="bottom" id="UtM-0F-7OT"/>
+                            <constraint firstItem="COX-Iv-m60" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="nGH-1O-lsL"/>
+                            <constraint firstItem="Qbs-DQ-6B3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rtP-sS-Hsx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="framesView" destination="COX-Iv-m60" id="u4W-m8-fnp"/>
+                        <outlet property="scoresView" destination="Qbs-DQ-6B3" id="ofJ-Ky-Nbc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
