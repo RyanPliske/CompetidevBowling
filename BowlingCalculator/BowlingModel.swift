@@ -11,6 +11,7 @@ final class BowlingModel {
     weak var delegate: BowlingModelDelegate?
     var frames = [Frame]()
     var totalScore = 0
+    let totalNumberOfFrames = 10.0
     
     func addScore(score: Int) {
         
@@ -36,6 +37,10 @@ final class BowlingModel {
         } else {
             frames.append(Frame(score: score))
         }
+    }
+    
+    func getMaxNumberOfFrames() -> Double {
+        return totalNumberOfFrames
     }
     
     private func updateTotalScore(completedFrame: Frame) {
