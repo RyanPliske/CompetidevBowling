@@ -7,8 +7,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        scoresView.updateScoreConstraints()
+        self.scoresView.updateViewConstraints()
     }
-
 }
 

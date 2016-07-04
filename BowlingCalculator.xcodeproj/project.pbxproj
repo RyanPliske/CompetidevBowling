@@ -14,7 +14,7 @@
 		F91F95FD1D234613004B231C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91F95FB1D234613004B231C /* LaunchScreen.storyboard */; };
 		F91F96081D234613004B231C /* BowlingModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91F96071D234613004B231C /* BowlingModelTests.swift */; };
 		F91F96131D234676004B231C /* BowlingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91F96121D234676004B231C /* BowlingModel.swift */; };
-		F91F96151D236022004B231C /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91F96141D236022004B231C /* ScoreView.swift */; };
+		F91F96151D236022004B231C /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91F96141D236022004B231C /* ScoresView.swift */; };
 		F9FABFB01D23636C00BE7B72 /* FramesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FABFAF1D23636C00BE7B72 /* FramesView.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		F91F96071D234613004B231C /* BowlingModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingModelTests.swift; sourceTree = "<group>"; };
 		F91F96091D234613004B231C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F91F96121D234676004B231C /* BowlingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingModel.swift; sourceTree = "<group>"; };
-		F91F96141D236022004B231C /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		F91F96141D236022004B231C /* ScoresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
 		F9FABFAF1D23636C00BE7B72 /* FramesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FramesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,7 @@
 				F91F95F21D234613004B231C /* AppDelegate.swift */,
 				F91F95F41D234613004B231C /* ViewController.swift */,
 				F9FABFAF1D23636C00BE7B72 /* FramesView.swift */,
-				F91F96141D236022004B231C /* ScoreView.swift */,
+				F91F96141D236022004B231C /* ScoresView.swift */,
 				F91F95F61D234613004B231C /* Main.storyboard */,
 				F91F96121D234676004B231C /* BowlingModel.swift */,
 				F91F95F91D234613004B231C /* Assets.xcassets */,
@@ -208,7 +208,7 @@
 			files = (
 				F91F95F51D234613004B231C /* ViewController.swift in Sources */,
 				F9FABFB01D23636C00BE7B72 /* FramesView.swift in Sources */,
-				F91F96151D236022004B231C /* ScoreView.swift in Sources */,
+				F91F96151D236022004B231C /* ScoresView.swift in Sources */,
 				F91F96131D234676004B231C /* BowlingModel.swift in Sources */,
 				F91F95F31D234613004B231C /* AppDelegate.swift in Sources */,
 			);
